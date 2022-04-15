@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.item p {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: aquamarine;
+    border: 3px black solid;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* aplicamos flexbox*/
+/*aplicamos en el contenedor padre*/
+
+/*row =fila
+/* column = columna */ 
+
+.contenedor {
+    background-color: bisque;
+    /* activo flexbox */
+    display:flex;
+    flex-direction:row;
+    width: 600px;
+    height: 200px;
+    flex-wrap: nowrap ;
+    justify-content: center;
+    align-items:flex-end;
+}
+
