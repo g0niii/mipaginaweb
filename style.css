@@ -59,6 +59,7 @@ nav ul li:hover {
 header{
 
     background: url(imagenes/SINELDENT_Fondo-Degradado1080p.png) no-repeat fixed;
+    background-size: cover;
     grid-area: header;
     border-bottom: 2px rgb(61, 149, 160) solid;
 }
@@ -122,6 +123,7 @@ nav a {
 footer {
     height: 100px;
     background: url(imagenes/SINELDENT_Fondo-Degradado1080p.png) no-repeat fixed;
+    background-size: cover;
     border-top: 2px solid black;
     grid-area: footer;
     display: flex;  
