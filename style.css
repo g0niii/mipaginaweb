@@ -326,6 +326,22 @@ background-position: center center;
 
 }
 
+.imagenes img{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -549,6 +565,17 @@ main{
      background-color: rgb(163, 225, 236);
      
  }
+ 
+ .imagenes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ 
+ 
+
 }
 
 
